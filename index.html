@@ -1,0 +1,97 @@
+<head>
+ <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  
+     <link href="https://fonts.googleapis.com/css?family=Lato:100,500" rel="stylesheet" type="text/css">
+     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+   <script>
+    var backgroundImages = [
+  "https://pixabay.com/static/uploads/photo/2016/03/06/05/03/piano-1239729__340.jpg",
+ 
+ "https://pixabay.com/static/uploads/photo/2016/03/06/05/03/sunrise-1239728__340.jpg",
+
+  "https://pixabay.com/static/uploads/photo/2015/01/28/23/35/landscape-615429__340.jpg",
+     
+  "https://pixabay.com/static/uploads/photo/2016/05/05/02/40/jetty-1373173__340.jpg",
+  "https://pixabay.com/static/uploads/photo/2016/04/10/21/34/portrait-1320810__340.jpg",
+  "https://pixabay.com/static/uploads/photo/2016/04/19/21/47/hamburg-1340004__340.jpg",
+  "https://pixabay.com/static/uploads/photo/2016/04/16/23/07/cat-1333926__340.jpg"
+]
+
+//Random background image
+$('body').css({
+  'background-image': 'url(' + backgroundImages[Math.floor(Math.random() * backgroundImages.length)] + ')'
+});
+  </script>
+  <!--ENd of script tag-->
+  
+  <style>
+ body {
+  background-color: #eee;
+  background: url('https://images.unsplash.com/33/hBd6EPoQT2C8VQYv65ys_White%20Sands.jpg?crop=entropy&fit=crop&fm=jpg&h=925&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1300') no-repeat   center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+  color: #333;
+}
+
+.actions {
+  padding: 10px 20px;
+  margin: 0 0 6px;
+}
+    .transbox {
+    margin-top: 160px;
+    padding: 4px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid #fff;
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+    
+ .text { 
+ font-size: 60px;
+ margin-bottom: 35px;
+ font-weight: 100;
+ font-family: 'Lato';
+        }
+   .context { 
+ font-size: 25px;
+ margin-bottom: 35px;
+ font-weight: 100;
+ font-family: 'Lato';
+        }
+ 
+    .footer { 
+ font-size: 15px;
+ margin-bottom: 35px;
+ font-weight: 500;
+ font-family: 'Lato';
+        }
+               
+  </style>
+</head>
+<body>
+  <div id="container" class="row">
+  <div class="kryo col-md-6 col-md-offset-3">
+    <div class="transbox">
+      <blockquote>
+        <div class="text">
+        <b>
+          We are currently in development!
+          </b>
+        </div>
+        <div class="context">
+        <b>
+         You can contact us by emailing th following address: <a href="mailto:keegan@kryo.pro"> keegan@kryo.pro </a>
+          </b>
+        </div>
+        <div class="footer">
+        <b>
+         &copy; 2016 KryoPro, All rights reserved. | Owned By <a href="https://www.keegan.pro">Keegan</a> | <a href="http://mail.kryo.pro">Webmail</a>
+          </b>
+        </div>
+     
+    </div>
+  </div>
+</div>
+</body>
